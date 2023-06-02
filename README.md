@@ -2,7 +2,7 @@
 一个简单的自定义封锁提示页面
 如果不需要显示用户的IP与归属地，去掉如下代码即可：
 
-  <script>
+  `<script>
     fetch('https://api.ipify.org?format=json')
         .then(response => response.json())
         .then(data => {
