@@ -13,4 +13,4 @@
         .then(data => {
             document.getElementById('location').innerText = `Your IP is located in: ${data.country}, ${data.regionName}, ${data.city}`;
         });
-    </script>
+    </script>`
